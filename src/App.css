@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+body {
+  /* width: 90rem; */
+  height: 100vh;
+  background: #1a1a1d;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  /* display: flex; */
+}
+
+.header {
+  margin-top: 0.5rem;
+  font-family: Oswald;
+  display: flex;
+  height: 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.description {
+  color: #fff;
+  font-family: Overpass;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.03375rem;
+  width: 35.4375rem;
+  height: 7.9rem;
+  flex-shrink: 0;
+  left: 0px;
+  text-align: left;
+  padding: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+
+  -webkit-line-clamp: 5;
+
+  -webkit-box-orient: vertical;
+  /* top:100% */
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.MovieImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(1deg, #1a1a1d 0%, rgba(26, 26, 29, 0) 100%); */
+}
+.MovieTitle{
+  /* width: 13.8125rem; */
+  color: #FFF;
+  display: flex;
+  /* justify-content: center; */
+font-family: Oswald;
+font-size: 4.875rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.descriptionTitle {
+  display: flex;
+  gap: 10px;
+  /* left: 5rem; */
+}
+.title {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+  position: absolute;
+  top: 0rem;
+  left: 5rem;
+  padding: 10px;
+}
+@media screen and (max-width: 992px) {
+  .title {
+    left: 15%;
+  }
+}
+
+.CarouselImage {
+  width: 83.90625rem;
+  height: 41.76563rem;
+  display: flex;
+  justify-content: center;
+  opacity: 50%;
+  flex-shrink: 0;
+  border-radius: 0.9375rem;
+
+  background: linear-gradient(92deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+.closeButton {
+  background-color: transparent;
+  color: darkgray;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  display: flex;
+  top: 2.5rem;
+  border-radius: 50px;
+  border: 1px solid transparent;
+}
+.closeButton:hover {
+  background-color: #da3714;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 1.2); */
+}
+
+.PlayButton {
+  width: 11.01563rem;
+  height: 2.8125rem;
+  flex-shrink: 0;
+  background-color: grey;
+  display: flex;
+}
+.PlayButton:hover {
+  /* display: flex; */
+  background: #da3714;
+  scale: 1.1;
+  z-index: 150%;
+}
+.shareButton {
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+}
+.plusButton {
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+}
+
+.watch {
+  color: #fff;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+
+.flix {
+  color: #da3714;
+  font-family: Oswald;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+  display: inline;
+}
+.TrendingOuterContainer {
+  display: flex;
+  /* //   width: "9.14331rem;
+          //   height: "13.54975rem",
+          // gap: "10px", */
+  flex-shrink: 0;
+  overflow: scroll;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+.trendingImage:hover {
+  /* overflow-x: hidden; */
+  scale: 1.2;
+  z-index: 150%;
+  object-fit: cover;
+}
+.ContentList {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  gap: 3rem;
+  /* line-height: normal; */
+}
+
+.headEnd {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.SearchIcon {
+  width: 1.64063rem;
+  height: 1.64063rem;
+  flex-shrink: 0;
+}
+
+.Notification {
+  width: 1.64063rem;
+  height: 1.64063rem;
+  flex-shrink: 0;
+}
+
+.SignUp {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+
+.footer {
+  background-color: black;
+  /* position: static; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* position: fixed;*/
+  /* bottom: 0px;  */
+  /* width: 100rem; */
+  width: 100%;
+  height: 10%;
+  flex-shrink: 0;
+  color: #da3714;
+}
+
+.footerContent {
+  color: #da3714;
+  font-family: Overpass;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+
+.footerSubContent {
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: Overpass;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: normal; */
+}
